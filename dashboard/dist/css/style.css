@@ -1,0 +1,137 @@
+.nav-sidebar {
+    /* position: relative; */
+    height:790px !important;
+    /* overflow-x: scroll; */
+}
+.content_center
+{
+    text-align: -webkit-center;
+    text-align: -moz-center;
+}
+.btn_right
+{
+    float: right;
+}
+.bg-primary
+{
+ background-color: #0d5893 !important;
+}
+.btn-yellow {
+	color: #2d2d2d;
+	background-color: #ffad44;
+	border-color: #ffad44;
+	box-shadow: none;
+}
+.btn-yellow:hover {
+	color: #2d2d2d;
+	background-color: #ffad44;
+	border-color: #ffad44;
+	box-shadow: none;
+}
+
+
+.col-form-label {
+	padding-top: calc(.375rem + 1px);
+	padding-bottom: calc(.375rem + 1px);
+	margin-bottom: 0;
+	font-size: inherit;
+	line-height: 1.5;
+	text-align: justify ;
+}
+#col-form-label
+{
+    padding-top: calc(.375rem + 1px);
+	padding-bottom: calc(.375rem + 1px);
+	margin-bottom: 0;
+	font-size: inherit;
+	line-height: 1.5;
+	text-align: center;
+
+}
+#col-form-label1
+{
+	padding-top: calc(.375rem + 1px);
+	padding-bottom: calc(.375rem + 1px);
+	margin-bottom: 0;
+	font-size: inherit;
+	line-height: 1.5;
+	text-align:left;
+}
+#clearfix
+{
+	text-align: left;
+}
+/* media  */
+@media only screen 
+  and (min-device-width: 210px) 
+  and (max-device-width:320px)
+{
+
+	#col-form-label {
+		padding-top: calc(.375rem + 1px);
+		padding-bottom: calc(.375rem + 1px);
+		margin-bottom: 0;
+		font-size: inherit;
+		line-height: 1.5;
+		text-align: left;
+	}
+	.btn_right
+	{
+		justify-content: center !important;
+		float: none;
+	}
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+{	
+	#col-form-label {
+		padding-top: calc(.375rem + 1px);
+		padding-bottom: calc(.375rem + 1px);
+		margin-bottom: 0;
+		font-size: inherit;
+		line-height: 1.5;
+		text-align: left;
+	}
+	.btn_right
+	{
+		justify-content: center;
+		float: none;
+	}
+}
+@media only screen 
+  and (min-device-width:480px) 
+  and (max-device-width:620px)
+{
+	#col-form-label {
+		padding-top: calc(.375rem + 1px);
+		padding-bottom: calc(.375rem + 1px);
+		margin-bottom: 0;
+		font-size: inherit;
+		line-height: 1.5;
+		text-align: left;
+	}
+	.btn_right
+	{
+		justify-content: center;
+		float: none;
+	}
+}
+@media only screen 
+  and (min-device-width:620px) 
+  and (max-device-width:720px)
+  {
+	.col-form-label
+	{
+		font-size: 14px !important; 
+	}
+  }
+  @media only screen 
+  and (min-device-width:720px) 
+  and (max-device-width:920px)
+  {
+	.col-form-label
+	{
+		font-size: 14px !important; 
+	}
+  }
